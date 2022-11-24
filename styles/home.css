@@ -1,0 +1,109 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body
+{
+    background: url("../pictures/bg.jpg");
+    background-size: 100%;
+    /* filter: blur(15px); */
+}
+
+.bg-container
+{
+    
+}
+
+.container
+{
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.432);
+    height: 70vh;
+    margin-top: 15vh;
+    /* margin-bottom: 2vh; */
+    margin-left: 24vh;
+    margin-right: 28vh;
+    display: flex;
+    border-radius: 30px;
+}
+
+
+.navbar-items
+{
+    margin-top: 11vh;
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: center;
+    text-align: center;
+}
+
+.navbar-item
+{
+    list-style: none;
+    margin-bottom: 12vh;
+    font-size: 20px;
+}
+
+.navbar-item a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-item a:hover
+{
+    color: white;
+    text-decoration: underline;
+}
+
+
+.content
+{
+    color: white;
+    display: flex;
+    flex-flow: wrap column;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    text-align:center;
+}
+
+.logo
+{
+    margin-top: 10vh;
+}
+
+.logo img
+{
+    border-radius: 50%;
+    
+}
+
+.name
+{
+    font-size: 35px;
+    margin-top: 3vh;
+}
+
+.tagline
+{
+    margin-top: 4vh;
+}
+.navbar
+{
+    background-color: rgba(255, 255, 255, 0.342);
+    height: 70vh;
+    width: 80vh;
+    padding-right: 5vh;
+    padding-left: 5vh;
+    border-top-left-radius:30px ;
+    border-bottom-left-radius: 30px;
+}
+
+.para
+{
+    font-size: 25px;
+    margin-top: 4vh;
+}
